@@ -8,7 +8,7 @@ export default function Button(props) {
   if (props.isLarge) className.push("btn-lg");
   if (props.isSmall) className.push("btn-sm");
   if (props.isBlock) className.push("btn-block");
-  if (props.isShadow) className.push("btn-shadow");
+  if (props.hasShadow) className.push("btn-shadow");
 
   const onClick = () => {
     if (props.onClick) props.onClick();
@@ -40,7 +40,7 @@ export default function Button(props) {
           target={props.target === "_blank" ? "_blank" : undefined}
           rel={props.target === "_blank" ? "noopener noreferrer" : undefined}
         >
-          {props.childern}
+          {props.children}
         </a>
       );
     } else {
@@ -51,7 +51,7 @@ export default function Button(props) {
           style={props.style}
           onClick={onClick}
         >
-          {props.childern}
+          {props.children}
         </Link>
       );
     }
@@ -63,13 +63,13 @@ export default function Button(props) {
       style={props.style}
       onClick={onClick}
     >
-      {props.childern}
+      {props.children}
     </button>
   );
 }
 
 Button.propTypes = {
-  type: propTypes.oneOf(["Button", "Link"]),
+  type: propTypes.oneOf(["button", "link"]),
   onClick: propTypes.func,
   href: propTypes.string,
   target: propTypes.string,
