@@ -1,0 +1,38 @@
+/* item */
+
+position: absolute;
+width: 137.73px;
+height: 69px;
+left: 150px;
+top: 539px;
+
+
+
+/* 80,409 Travelers */
+
+position: absolute;
+width: 137.73px;
+height: 27px;
+left: 150px;
+top: 581px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 170%;
+/* or 27px */
+
+color: #000000;
+
+
+
+/* ic_travelers 1 */
+
+position: absolute;
+width: 32px;
+height: 32px;
+left: 150px;
+top: 539px;
+
+background: url(ic_travelers.png);

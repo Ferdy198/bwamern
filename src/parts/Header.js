@@ -14,7 +14,7 @@ export default function Header(props) {
         <nav className="navbar navbar-expand-lg navbar-light">
           <BrandIcon />
 
-          <div className="collapse navbar-collapse show">
+          <div className="collapse navbar-collapse show pe-5">
             <ul className="navbar-nav ms-auto d-flex flex-row align-items-center">
               <li className={`nav-item${getNavLinkClass("/")}`}>
                 <Button className="nav-link" type="link" href="/">

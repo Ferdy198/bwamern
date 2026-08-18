@@ -1,0 +1,114 @@
+{
+  "_id": "item-1",
+  "name": "Villages Bunga",
+  "type": "Hotel",
+  "price": 280,
+  "unit": "night",
+  "city": "Bogor",
+  "country": "Indonesia",
+  "isPopular": true,
+  "description": "<p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem    placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor.</p><p>Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.</p>",
+  "imageUrls": [
+    {
+      "_id": "img-1",
+      "url": "/images/img-detail-1.jpg"
+    },
+    {
+      "_id": "img-2",
+      "url": "/images/img-detail-2.jpg"
+    },
+    {
+      "_id": "img-3",
+      "url": "/images/img-detail-3.jpg"
+    }
+  ],
+  "features": [
+    {
+      "_id": "feat-1",
+      "qty": 5,
+      "name": "Bedrooms",
+      "imageUrl": "/images/ic_bedroom.svg"
+    },
+    {
+      "_id": "feat-2",
+      "qty": 1,
+      "name": "Living Room",
+      "imageUrl": "/images/ic_livingroom.svg"
+    },
+    {
+      "_id": "feat-3",
+      "qty": 2,
+      "name": "Bathrooms",
+      "imageUrl": "/images/ic_bathroom.svg"
+    },
+    {
+      "_id": "feat-4",
+      "qty": 1,
+      "name": "Dining Room",
+      "imageUrl": "/images/ic_diningroom.svg"
+    },
+    {
+      "_id": "feat-5",
+      "qty": 10,
+      "name": "mbp/s",
+      "imageUrl": "/images/ic_wifi.svg"
+    },
+    {
+      "_id": "feat-6",
+      "qty": 2,
+      "name": "Unit Ready",
+      "imageUrl": "/images/ic_ac.svg"
+    },
+    {
+      "_id": "feat-7",
+      "qty": 2,
+      "name": "Refrigerator",
+      "imageUrl": "/images/ic_kulkas.svg"
+    },
+    {
+      "_id": "feat-8",
+      "qty": 1,
+      "name": "Television",
+      "imageUrl": "/images/ic_tv.svg"
+    }
+  ],
+  "activityIds": [
+    {
+      "_id": "act-1",
+      "name": "rosy blue waterfall",
+      "type": "Sumbawa",
+      "imageUrl": "/images/img-activity-1.jpg",
+      "isPopular": false
+    },
+    {
+      "_id": "act-2",
+      "name": "beach of two souls",
+      "type": "Komodo Island",
+      "imageUrl": "/images/img-activity-2.jpg",
+      "isPopular": true
+    },
+    {
+      "_id": "act-3",
+      "name": "Lily Garden",
+      "type": "Cisarua",
+      "imageUrl": "/images/img-activity-3.jpg",
+      "isPopular": false
+    },
+    {
+      "_id": "act-4",
+      "name": "Dolphin Attraction",
+      "type": "Sentul Bogor",
+      "imageUrl": "/images/img-activity-4.jpg",
+      "isPopular": false
+    }
+  ],
+  "testimonial": {
+    "_id": "test-1",
+    "imageUrl": "/images/img-testimonial-detail.jpg",
+    "name": "Happy Family",
+    "rate": 5,
+    "content": "What a great trip with my family and I should try again next time soon ..",
+    "familyName": "Ichsan",
+    "familyOccupation": "Front End Developer"
+  }
+}

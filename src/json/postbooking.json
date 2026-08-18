@@ -1,0 +1,18 @@
+{
+  "bank": [
+    {
+      "_id": "bank-1",
+      "nameBank": "Bank Central Asia",
+      "nomorRekening": "2301013476",
+      "name": "Haryanto",
+      "imageUrl": "/images/logo-bca.jpg"
+    },
+    {
+      "_id": "bank-2",
+      "nameBank": "Bank Mandiri",
+      "nomorRekening": "2301013476122415",
+      "name": "Haryanto",
+      "imageUrl": "/images/logo-mandiri.jpg"
+    }
+  ]
+}

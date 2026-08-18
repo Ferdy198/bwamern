@@ -3,6 +3,13 @@
 //
 .h1 {
   @extend h1;
+  line-height: 63px;
+}
+
+h1,
+.h1 {
+  font-size: 42px !important;
+  line-height: 63px !important;
 }
 
 .h2 {
@@ -24,7 +31,6 @@
 .h6 {
   @extend h6;
 }
-
 
 .lead {
   @include font-size($lead-font-size);
@@ -72,7 +78,6 @@
     margin-right: $list-inline-padding;
   }
 }
-
 
 //
 // Misc
